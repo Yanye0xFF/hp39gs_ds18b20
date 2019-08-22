@@ -6,8 +6,6 @@
 
 #define uint8 unsigned char
 
-void os_delay_us(unsigned int us);
-
 uint8 ds18b20_init();
 
 void ds18b20_write_byte(uint8 data);
